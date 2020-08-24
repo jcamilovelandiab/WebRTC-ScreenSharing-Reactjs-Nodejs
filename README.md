@@ -1,3 +1,5 @@
+# WebRTC screen-sharing application
+
 The current repository has the server-side in the /server folder and client-side in the /client folder.
 
 ## Server-side
