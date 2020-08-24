@@ -1,0 +1,29 @@
+{
+  "name": "webrtc-screen-sharing-server",
+  "version": "1.0.0",
+  "description": "This is the server for web screen sharing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "babel",
+    "node.js"
+  ],
+  "author": "Camilo Botello <jcamilovelandiab@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
